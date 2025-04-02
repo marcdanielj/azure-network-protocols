@@ -64,8 +64,9 @@ This guide shows you how to monitor network traffic flowing to and from Azure Vi
 <img width="694" alt="image" src="https://github.com/user-attachments/assets/741542ef-6df1-4093-98b9-12d6100e82e3" />
 </p>
 
-- You can observe other protocols too, like SSH, DHCP, DNS, and RDP, as shown in the screenshots
+- You can observe these protocols as shown above, like SSH, DHCP, DNS, and RDP.
+- Implementings these flags will help the user view traffic from it's individual sources, this helps viewing desired traffic pertaining to it's protocols
 - For SSH, connect to the Linux VM with: `ssh username@privateipaddress`
-- RDP traffic appears continuously since the remote desktop connection to Windows is active
+- RDP traffic appears continuously since the remote desktop connection to Windows is active, meaning every inch the mouse moves that data is captured. Flags help differentiate on-going traffic.
 </P>
 <br />
