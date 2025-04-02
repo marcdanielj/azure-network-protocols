@@ -3,6 +3,7 @@
 </p>
 
 # Exploring Network Security Groups and Traffic Between Azure VMs
+- ### [Wireshark Installation ](https://www.wireshark.org/#downloadLink)
 
 This guide shows you how to monitor network traffic flowing to and from Azure Virtual Machines using Wireshark, and how to control it with Network Security Groups.
 
